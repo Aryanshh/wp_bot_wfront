@@ -1,0 +1,22 @@
+{
+  "industry": "Real Estate",
+  "qualifying_questions": [
+    "Hi {{name}}, I’m here to help with your property needs! May I ask what kind of property you're looking for?",
+    "What's your budget range?",
+    "How soon are you planning to make a move?",
+    "Preferred location or city?"
+  ],
+  "classification_rules": {
+    "Hot": {
+      "budget_min": 50000,
+      "urgency": ["immediately", "within a week", "ASAP"]
+    },
+    "Cold": {
+      "budget_min": 0,
+      "urgency": ["just browsing", "in 3+ months"]
+    },
+    "Invalid": {
+      "invalid_keywords": ["not interested", "wrong number", "stop"]
+    }
+  }
+}

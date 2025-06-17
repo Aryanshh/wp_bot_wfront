@@ -1,0 +1,48 @@
+{
+  "lead": {
+    "name": "Aira",
+    "phone": "+91xxxxxxxxxx",
+    "source": "Website Contact Form",
+    "message": "Interested in a 2BHK in Bangalore"
+  },
+  "transcript": [
+    {
+      "role": "assistant",
+      "content": "Hi Aira, I’m here to help with your property needs! May I ask what kind of property you're looking for?"
+    },
+    {
+      "role": "user",
+      "content": "Are you looking for a cozy apartment, a spacious house, or maybe a commercial property? Let me know your preferences so I can assist you better."
+    },
+    {
+      "role": "assistant",
+      "content": "What's your budget range?"
+    },
+    {
+      "role": "user",
+      "content": "What location are you interested in?"
+    },
+    {
+      "role": "assistant",
+      "content": "How soon are you planning to make a move?"
+    },
+    {
+      "role": "user",
+      "content": "Do you have any specific requirements or features you are looking for in a property, such as the number of bedrooms, bathrooms, or amenities like a pool or a garden?"
+    },
+    {
+      "role": "assistant",
+      "content": "Preferred location or city?"
+    },
+    {
+      "role": "user",
+      "content": "Once I have a better understanding of your preferences, I can narrow down the options and find the perfect property for you. Let me know your requirements, and I'll do my best to assist you in finding the ideal property that meets your needs and preferences."
+    }
+  ],
+  "classification": "Cold",
+  "metadata": {
+    "budget": "What location are you interested in?",
+    "urgency": "Do you have any specific requirements or features you are looking for in a property, such as the number of bedrooms, bathrooms, or amenities like a pool or a garden?",
+    "location": "Once I have a better understanding of your preferences, I can narrow down the options and find the perfect property for you. Let me know your requirements, and I'll do my best to assist you in finding the ideal property that meets your needs and preferences."
+  }
+}
